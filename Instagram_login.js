@@ -39,8 +39,8 @@ export default function Instagram_login() {
          password: '12345'
        },
        {
-         username: 'kumar',
-         password: 'arun'
+         username: 'arunkumaresan55',
+         password: '@Asd1234'
        },
        {
          username: 'jaya',
