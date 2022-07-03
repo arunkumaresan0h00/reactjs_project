@@ -1,0 +1,166 @@
+body {
+  background-color: #fafafa;
+}
+
+p {
+  border-top: none !important;
+}
+.last_page,
+.img_bottom,
+.user_one {
+  display: flex;
+  list-style-type: none;
+}
+.icons,
+.heart_icon,
+.facebook,
+.bookmark {
+  font-size: 30px;
+}
+.left_page {
+  display: inline-block;
+  width: 800px;
+  z-index: -1;
+}
+.right_page {
+  position: fixed;
+  z-index: 11;
+  width: 23% !important;
+  margin-left: 54%;
+  margin-top: 10%;
+}
+.img1 {
+  transform: translate(-70px, -50px);
+}
+.constainer {
+  background-color: red;
+}
+.heading_line {
+  grid-auto-flow: column;
+  display: grid;
+  height: 55px !important;
+  list-style-type: none;
+  grid-template-columns: repeat(2, 30%);
+  border-bottom: 1px solid #dbdbdb;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.li_list {
+  margin: 10px;
+}
+.search_box {
+  width: 70%;
+  margin-top: 3% !important;
+  background-color: #efefef;
+  height: 34px;
+  border-radius: 15px;
+}
+.get_start {
+  height: 300px;
+  width: 260px !important;
+  background-color: white;
+}
+.facebook {
+  transform: translate(103px, 27px);
+}
+.log_btn {
+  width: 70%;
+  margin: auto;
+}
+.heart_icon {
+  margin: 7px 10px;
+}
+
+.last_page {
+  display: flex;
+  border: 1px solid #dfdfdf;
+  border-radius: 20px;
+}
+.bottom_input {
+  border: none;
+  width: 240px;
+}
+iframe {
+  width: 360px;
+}
+.one,
+.two,
+.three {
+  margin-left: 10px;
+}
+/* img
+{
+
+    transform: translate(-30px ,0px);
+} */
+.bookmark {
+  transform: translate(560%, 0px);
+}
+.first_img {
+  transform: translate(0px, 190px) !important;
+  height: 150px !important;
+  width: 151px !important;
+}
+h4 {
+  transform: translate(0px, 190px);
+  color: red;
+}
+
+
+.card
+{
+  border: 2px solid #dbdbdb;
+}
+.icons_two {
+  transform: translate(0px, 23%);
+}
+.bookmark {
+  transform: translate(580%, 40%);
+  font-size: 24px !important;
+}
+.heart {
+  margin: 2px 10px !important;
+}
+.input:focus {
+  outline: none;
+}
+.feed_left
+{
+  width: 56%;
+}
+.right_page
+  {
+    margin-left: 40%;
+  }
+@media only screen and (max-width: 1200px) {
+   /* For Desktop  */
+   .feed_left {
+    width: 65%;
+  }
+  .right_page
+  {
+    margin-left: 54%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* <!-- For Laptop --> */
+  .feed_left {
+    width: 57%;
+  }
+  .right_page
+  {
+    margin-left: 50%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* <!-- For Tab --> */
+  .feed_left {
+    width: 50%;
+  }
+  .right_page
+  {
+    margin-left: 60%;
+  }
+}
